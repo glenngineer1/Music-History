@@ -1,0 +1,126 @@
+/*Navigation Bar*/
+
+.nav-bar {
+  background-color: #FFB4B0;
+  border: 2px solid black;
+  width: 80%;
+  margin: 10px 10%;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/*Left Window*/
+
+.left-window {
+  margin-left: 10%;
+  width: 16%;
+  border: 2px solid black;
+  display: inline-block;
+  background-color: #4DD7FA;
+}
+
+.song-length {
+  padding: 15px 10px 5px 5px;
+}
+
+.slider {
+  padding-top: 5px;
+  width: 180px;
+}
+
+.select {
+  width: 180px;
+  border: 2px solid black;
+}
+
+.artist {
+  padding: 15px 10px 5px 5px;
+}
+
+.artist-name {
+  padding: 13px 10px 5px 0;
+}
+
+.album {
+  padding: 15px 10px 5px 5px;
+}
+
+.album-name {
+  padding: 13px 10px 15px 0;
+}
+
+.genre {
+  padding: 10px 10px 5px 5px;
+}
+
+.checkbox {
+  outline: 1px solid black;
+}
+
+.checkbox-left {
+  list-style-type: none;
+  float: left;
+  margin-left: -12%;
+}
+
+.checkbox-left li {
+  padding-bottom: 4px;
+}
+
+.checkbox-right {
+  list-style-type: none;
+  float: right;
+  padding-left: 0px;
+}
+
+.checkbox-right li {
+  padding-bottom: 4px;
+}
+
+.filter {
+  clear: both;
+}
+
+.filter-button {
+  margin-left: 55px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10%;
+  border: 2px solid black;
+}
+
+/*Song Name Window*/
+
+.song-name {
+  background-color: #FEFAC0;
+  color: #785616;
+  margin-right: 9.7%;
+  border: 2px solid black;
+  width: 59%;
+  float: right;
+}
+
+.individual-song {
+  padding: 1.4px;
+}
+
+.individual-song h1 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.artist-song {
+  display: inline;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+
+.album-song {
+  display: inline;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+

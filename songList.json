@@ -1,0 +1,24 @@
+{
+  "songs": [
+    {
+      "title": "Cry Ophelia",
+      "artist": "Adam Cohen",
+      "album": "Adam Cohen"
+    },
+    {
+      "title": "Unchained",
+      "artist": "Van Halen",
+      "album": "Fair Warning"
+    },
+    {
+      "title": "Don't You Give Up On Me",
+      "artist": "Lissie",
+      "album": "My Wild West"
+    },
+    {
+      "title": "Run To You",
+      "artist": "Bryan Adams",
+      "album": "Reckless"
+    }
+  ]
+}
