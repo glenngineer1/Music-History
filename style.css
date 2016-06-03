@@ -115,12 +115,15 @@
 .artist-song {
   display: inline;
   margin: 0 auto;
-  padding: 0 90px;
+  padding: 0 20px;
 }
 
 .album-song {
   display: inline;
   margin: 0 auto;
-  padding: 0 90px;
+  padding: 0 20px;
 }
 
+#delete-song {
+  display: inline;
+}

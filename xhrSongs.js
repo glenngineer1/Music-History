@@ -34,9 +34,16 @@ function executeCodeAfterFileLoads() {
     songData += "<h1>" + song.title + "</h1>";
     songData += "<div class='artist-song'>Performed By: " + song.artist + "</div>";
     songData += "<div class='album-song'>On The Album: " + song.album + "</div>";
+    songData += "<input id='delete-song' type='button'> Delete" + "</input>";
     songData += "</div>";
 
     newSong.innerHTML += songData;
+    var deleteButton = document.getElementById("delete-song");
+    deleteButton.addEventListener("click", removeElement);
+    function removeElement(event) {
+      deleteButton.parentNode.remove();
+      // console.log("event.target", event.target);
+    }
   }
 }
 
