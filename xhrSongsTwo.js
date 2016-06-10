@@ -4,11 +4,19 @@ var myRequest = new XMLHttpRequest();
 // Get the json file using the method open
 myRequest.open("GET", "songListTwo.json");
 
+// Starts getting the second JSON file once the more button is clicked via the function
 document.getElementById("moreButton").addEventListener("click", startSecondRequest);
 
-// Start the process of getting the json file
+// Start the process of getting the json file and deleting the more button from the DOM
 function startSecondRequest() {
   myRequest.send();
+  deleteMoreButton();
+}
+
+// Deletes the more button from the DOM once it's clicked and the second JSON file populates the DOM
+function deleteMoreButton() {
+  var deleteMore = document.getElementById("moreButton");
+  deleteMore.remove();
 }
 
 // runs this function if json file doesn't load
