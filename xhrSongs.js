@@ -31,9 +31,10 @@ function executeCodeAfterFileLoads() {
   for (currentSong in data.songs) {
     var songCard = "";
     var song = data.songs[currentSong];
+    // console.log("song", song);
 
     counter++;
-    songCard = `<div class="individual-song><h1>${song.title}</h1><div class="artist-song>Performed By: ${song.artist}</div><div class="album-song">On The Album: ${song.album}</div><button id="delete-song--${counter}">Delete</button></div>`;
+    songCard = `<div class="individual-song"><div class="song-title">${song.title}</div><button id="delete-song--${counter}">Delete</button><div class="artist-song">Performed By: ${song.artist}</div><div class="album-song">On The Album: ${song.album}</div></div>`;
 
     var newDiv = document.createElement("article");
     newDiv.innerHTML = songCard;
