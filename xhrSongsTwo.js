@@ -2,10 +2,14 @@
 var myRequest = new XMLHttpRequest();
 
 // Get the json file using the method open
-myRequest.open("GET", "songList.json");
+myRequest.open("GET", "songListTwo.json");
+
+document.getElementById("moreButton").addEventListener("click", startSecondRequest);
 
 // Start the process of getting the json file
-myRequest.send();
+function startSecondRequest() {
+  myRequest.send();
+}
 
 // runs this function if json file doesn't load
 myRequest.addEventListener("error", xhrTransferError);
@@ -28,9 +32,9 @@ function executeCodeAfterFileLoads() {
   // takes json data and converts it to an object
   var data = JSON.parse(this.responseText);
 
-  for (currentSong in data.songs) {
+  for (currentSong in data.songsTwo) {
     var songCard = "";
-    var song = data.songs[currentSong];
+    var song = data.songsTwo[currentSong];
 
     counter++;
     songCard = `<div class="individual-song"><div class="song-title">${song.title}</div><button id="delete-song--${counter}">Delete</button><div class="artist-song">Performed By: ${song.artist}</div><div class="album-song">On The Album: ${song.album}</div></div>`;
