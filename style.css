@@ -1,6 +1,6 @@
 /*Navigation Bar*/
 
-.nav-bar {
+/*.nav-bar {
   background-color: #FFB4B0;
   border: 2px solid black;
   width: 80%;
@@ -10,11 +10,11 @@
 .nav-bar li {
   list-style-type: none;
   display: inline-block;
-}
+}*/
 
 /*Left Window*/
 
-.left-window {
+/*.left-window {
   margin-left: 10%;
   width: 16%;
   border: 2px solid black;
@@ -90,11 +90,11 @@
   height: 25px;
   border-radius: 10%;
   border: 2px solid black;
-}
+}*/
 
 /*Song Name Window*/
 
-.song-name {
+/*.song-name {
   background-color: #FEFAC0;
   color: #785616;
   margin-right: 9.7%;
@@ -126,5 +126,5 @@
 .moreButton {
   display: block;
   margin: 10px auto;
-}
+}*/
 

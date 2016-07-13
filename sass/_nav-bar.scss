@@ -1,0 +1,13 @@
+@import 'extends';
+
+.nav-bar {
+  background-color: #FFB4B0;
+  @extend %border;
+  width: 80%;
+  margin: 10px 10%;
+}
+
+.nav-bar li {
+  @extend %list-style-type;
+  @extend %inline-block;
+}

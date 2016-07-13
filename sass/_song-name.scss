@@ -1,0 +1,36 @@
+@import 'extends';
+@import 'mixins';
+
+.song-name {
+  background-color: #FEFAC0;
+  color: #785616;
+  margin-right: 9.7%;
+  @extend %border;
+  width: 59%;
+  float: right;
+}
+
+.song-title {
+  margin: 18.8px auto;
+  @include padding(1.4px 1.4px 1.4px 1.4px);
+  font-size: 1.8em;
+  text-align: center;
+}
+
+
+.artist-song {
+  display: inline;
+  margin-left: 100px;
+  @include padding(0px 20px);
+}
+
+.album-song {
+  display: inline;
+  margin-right: 50px;
+  padding: 0 60px;
+}
+
+.moreButton {
+  display: block;
+  margin: 10px auto;
+}

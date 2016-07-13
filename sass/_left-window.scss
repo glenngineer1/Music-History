@@ -1,0 +1,80 @@
+@import 'extends';
+@import 'mixins';
+
+.left-window {
+  margin-left: 10%;
+  width: 16%;
+  @extend %border;
+  @extend %inline-block;
+  background-color: #4DD7FA;
+}
+
+.song-length {
+  @include padding(15px 10px 5px 5px);
+}
+
+.slider {
+  padding-top: 5px;
+  width: 180px;
+}
+
+.select {
+  width: 180px;
+  @extend %border;
+}
+
+.artist {
+  @include padding (15px 10px 5px 5px);
+}
+
+.artist-name {
+  @include padding (13px 10px 5px 0);
+}
+
+.album {
+  @include padding (15px 10px 5px 5px);
+}
+
+.album-name {
+  @include padding(13px 10px 15px 0);
+}
+
+.genre {
+  @include padding(10px 10px 5px 5px);
+}
+
+.checkbox {
+  outline: 1px solid black;
+}
+
+.checkbox-left {
+  @extend %list-style-type;
+  float: left;
+  margin-left: -12%;
+}
+
+.checkbox-left li {
+  padding-bottom: 4px;
+}
+
+.checkbox-right {
+  @extend %list-style-type;
+  float: right;
+  padding-left: 0px;
+}
+
+.checkbox-right li {
+  padding-bottom: 4px;
+}
+
+.filter {
+  clear: both;
+}
+
+.filter-button {
+  margin-left: 55px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10%;
+  @extend %border;
+}
