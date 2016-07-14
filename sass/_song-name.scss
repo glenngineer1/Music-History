@@ -1,5 +1,4 @@
-@import 'extends';
-@import 'mixins';
+@import 'left-window';
 
 .song-name {
   background-color: #FEFAC0;
@@ -12,7 +11,7 @@
 
 .song-title {
   margin: 18.8px auto;
-  @include padding(1.4px 1.4px 1.4px 1.4px);
+  @include padding(1.4px);
   font-size: 1.8em;
   text-align: center;
 }
