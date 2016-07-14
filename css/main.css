@@ -1,0 +1,208 @@
+.nav-bar, .left-window, .select, .filter-button, .song-name {
+  border: 2px solid black; }
+
+.nav-bar li, .left-window {
+  display: inline-block; }
+
+.nav-bar li, .checkbox-left, .checkbox-right {
+  list-style-type: none; }
+
+.nav-bar {
+  background-color: #FFB4B0;
+  width: 80%;
+  margin: 10px 10%; }
+
+.nav-bar, .left-window, .select, .filter-button, .song-name {
+  border: 2px solid black; }
+
+.nav-bar li, .left-window {
+  display: inline-block; }
+
+.nav-bar li, .checkbox-left, .checkbox-right {
+  list-style-type: none; }
+
+.nav-bar {
+  background-color: #FFB4B0;
+  width: 80%;
+  margin: 10px 10%; }
+
+.left-window {
+  margin-left: 10%;
+  width: 16%;
+  background-color: #4DD7FA; }
+
+.song-length {
+  -moz-padding: 15px 10px 5px 5px;
+  -webkit-padding: 15px 10px 5px 5px;
+  padding: 15px 10px 5px 5px; }
+
+.slider {
+  padding-top: 5px;
+  width: 180px; }
+
+.select {
+  width: 180px; }
+
+.artist {
+  -moz-padding: 15px 10px 5px 5px;
+  -webkit-padding: 15px 10px 5px 5px;
+  padding: 15px 10px 5px 5px; }
+
+.artist-name {
+  -moz-padding: 13px 10px 5px 0;
+  -webkit-padding: 13px 10px 5px 0;
+  padding: 13px 10px 5px 0; }
+
+.album {
+  -moz-padding: 15px 10px 5px 5px;
+  -webkit-padding: 15px 10px 5px 5px;
+  padding: 15px 10px 5px 5px; }
+
+.album-name {
+  -moz-padding: 13px 10px 15px 0;
+  -webkit-padding: 13px 10px 15px 0;
+  padding: 13px 10px 15px 0; }
+
+.genre {
+  -moz-padding: 10px 10px 5px 5px;
+  -webkit-padding: 10px 10px 5px 5px;
+  padding: 10px 10px 5px 5px; }
+
+.checkbox {
+  outline: 1px solid black; }
+
+.checkbox-left {
+  float: left;
+  margin-left: -12%; }
+
+.checkbox-left li {
+  padding-bottom: 4px; }
+
+.checkbox-right {
+  float: right;
+  padding-left: 0px; }
+
+.checkbox-right li {
+  padding-bottom: 4px; }
+
+.filter {
+  clear: both; }
+
+.filter-button {
+  margin-left: 55px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10%; }
+
+.nav-bar, .left-window, .select, .filter-button, .song-name {
+  border: 2px solid black; }
+
+.nav-bar li, .left-window {
+  display: inline-block; }
+
+.nav-bar li, .checkbox-left, .checkbox-right {
+  list-style-type: none; }
+
+.nav-bar {
+  background-color: #FFB4B0;
+  width: 80%;
+  margin: 10px 10%; }
+
+.left-window {
+  margin-left: 10%;
+  width: 16%;
+  background-color: #4DD7FA; }
+
+.song-length {
+  -moz-padding: 15px 10px 5px 5px;
+  -webkit-padding: 15px 10px 5px 5px;
+  padding: 15px 10px 5px 5px; }
+
+.slider {
+  padding-top: 5px;
+  width: 180px; }
+
+.select {
+  width: 180px; }
+
+.artist {
+  -moz-padding: 15px 10px 5px 5px;
+  -webkit-padding: 15px 10px 5px 5px;
+  padding: 15px 10px 5px 5px; }
+
+.artist-name {
+  -moz-padding: 13px 10px 5px 0;
+  -webkit-padding: 13px 10px 5px 0;
+  padding: 13px 10px 5px 0; }
+
+.album {
+  -moz-padding: 15px 10px 5px 5px;
+  -webkit-padding: 15px 10px 5px 5px;
+  padding: 15px 10px 5px 5px; }
+
+.album-name {
+  -moz-padding: 13px 10px 15px 0;
+  -webkit-padding: 13px 10px 15px 0;
+  padding: 13px 10px 15px 0; }
+
+.genre {
+  -moz-padding: 10px 10px 5px 5px;
+  -webkit-padding: 10px 10px 5px 5px;
+  padding: 10px 10px 5px 5px; }
+
+.checkbox {
+  outline: 1px solid black; }
+
+.checkbox-left {
+  float: left;
+  margin-left: -12%; }
+
+.checkbox-left li {
+  padding-bottom: 4px; }
+
+.checkbox-right {
+  float: right;
+  padding-left: 0px; }
+
+.checkbox-right li {
+  padding-bottom: 4px; }
+
+.filter {
+  clear: both; }
+
+.filter-button {
+  margin-left: 55px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10%; }
+
+.song-name {
+  background-color: #FEFAC0;
+  color: #785616;
+  margin-right: 9.7%;
+  width: 59%;
+  float: right; }
+
+.song-title {
+  margin: 18.8px auto;
+  -moz-padding: 1.4px;
+  -webkit-padding: 1.4px;
+  padding: 1.4px;
+  font-size: 1.8em;
+  text-align: center; }
+
+.artist-song {
+  display: inline;
+  margin-left: 100px;
+  -moz-padding: 0px 20px;
+  -webkit-padding: 0px 20px;
+  padding: 0px 20px; }
+
+.album-song {
+  display: inline;
+  margin-right: 50px;
+  padding: 0 60px; }
+
+.moreButton {
+  display: block;
+  margin: 10px auto; }

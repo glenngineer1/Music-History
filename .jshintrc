@@ -1,0 +1,9 @@
+{
+  "predef": [ "document", "console" ],
+  "esversion": 6,
+  "globalstrict": true,
+  "browserify": true,
+  "globals": {
+    "this": true
+  }
+}

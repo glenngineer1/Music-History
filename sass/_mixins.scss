@@ -1,0 +1,8 @@
+// Code with different arguments - replacements for (.song-length, .artist, .artist-name, .album, .album-name, .genre, )
+
+//Use this setup for using multiple arguments when doing mixins
+@mixin padding($padding...) {
+  -moz-padding: $padding;
+  -webkit-padding: $padding;
+  padding: $padding;
+}
